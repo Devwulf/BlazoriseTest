@@ -1,0 +1,16 @@
+﻿<Field>
+    <FieldLabel>Name</FieldLabel>
+    <FieldBody>
+        <Validation Validator="@ValidationRule.IsNotEmpty">
+            <TextEdit>
+                <Feedback>
+                    <ValidationError>Field empty!</ValidationError>
+                </Feedback>
+            </TextEdit>
+        </Validation>
+    </FieldBody>
+</Field>
+
+@code {
+
+}
